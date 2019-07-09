@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".jungle">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="103dp"
+                    android:background="@drawable/jg"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Jungle"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jung_desc"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Monsters"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:layout_marginTop="70dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Raptors"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/raptors"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chickens_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Krugs"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/rocks"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rocks_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Gromp"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/gromp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/gromp_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Murk Wolves"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/wolves"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wolves_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rift Scuttler"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/rift"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rift_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Buffs"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:layout_marginTop="70dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Blue Sentinel"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/blue"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/blue_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Red Brambleback"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/red"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/red_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Epic Monsters"
+                    android:textAlignment="center"
+                    android:textSize="18dp"
+                    android:layout_marginTop="70dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Baron Nashor"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/baron"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/baron_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dragon"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="19dp"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/drake"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dragon_desc"
+                        android:background="@color/grey"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="15dp"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PD-2</string>
+    <string name="jung_desc">Here is where the Jungler\'s main source of income comes from. In here, monster reside in various places. Rewarding gold and experience when slain.
+    Epic Monsters also spawn later in the game. Giving a team reward when slain and also a huge buff.</string>
+    <string name="chickens_desc">The Raptor Camp consists of one large Crimson Raptor and five lesser Raptors.</string>
+    <string name="wolves_desc">The Murk Wolf Camp consists of one large Greater Murk Wolf and two lesser Murk Wolves</string>
+    <string name="rocks_desc">The Krug Camp consists of one large Ancient Krug and one Medium Krug. Killing the Ancient Krug will spawn two Medium Krugs, and killing Medium Krugs will spawn two lesser
+    Krugs, for a total of 10 units.</string>
+    <string name="gromp_desc">The Gromp Camp consists of only itself.</string>
+    <string name="blue_desc">The Blue Sentinel consists of only itself. Killing it will grant the killer the Crest of Insight buff which grants increased mana regeneration and 5% cooldown reduction.</string>
+    <string name="red_desc">The Red Brambleback consists of only itself. Killing it will grant the killer the Crest of Cinders buff which grants increased health regen and causes basic attacks to slow
+    and burn the enemy over time.</string>
+    <string name="rift_desc">The Rift Scuttler appears on both rivers. Killing it will grant a small area of vision for the killer\'s team around the objective it is closest to</string>
+    <string name="baron_desc">The Baron only spawns at 20mins every game, eliminating the Rift Herald if it hasn\'t been taken by then. Killing it would grant the killer\'s team a buff that
+    greatly increses AD, AP and the speed of recall and an aura that increases the power of nearby minions. </string>
+    <string name="dragon_desc">The Dragon comes in 5 forms - Infernal, Cloud, Water, Earth and Elder. Killing it will grant the killer\'s team a dragon buff according to it\'s form. The Elder Dragon
+    only spawns at 35mins. Killing it will grant the killer\'s team a buff that double the buff of anything previous dragons\' buffs.</string>
+</resources>
